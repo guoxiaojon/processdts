@@ -1,0 +1,13 @@
+{
+  "harmony-app": {
+    "feature": {
+      "shared": {
+        "proto-kt": {}
+      }
+    },
+    "shared": {
+      "_comment": "这里的依赖图可以省略，因为上面已经描述了"
+    }
+  },
+  "_comment": "(下划线开头的属性不会被处理)这个文件记录着编译鸿蒙所需的module依赖图,用于编译期处理d.ts文件使用"
+}
