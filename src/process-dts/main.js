@@ -22,7 +22,7 @@ async function main(isDebug, graphJsonPath, isCI) {
     const rootModuleName = rootNode.name
 
 
-    console.log(`harmony_app_dependency_graph: ${JSON.stringify(rootNode)}`)
+    console.log(`harmony_app_dependency_graph:\n${JSON.stringify(rootNode, undefined, 2)}`)
 
 
     const isGradlew = !isCI;
